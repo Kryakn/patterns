@@ -1,3 +1,4 @@
+//WAVE FORM TRAVERSING
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -22,7 +23,7 @@ vector<vector<int>>a(n,vector<int>(m));
                 cout<<a[i][j]<<"  ";
             }
         }
-        cout<<endl;
+       
      }
     return 0;
 }
