@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
 int n,m;
+//n=row,m=column
 cin>>m>>n;
 vector<vector<int>>a(n,vector<int>(m));
      for(int i=0;i<n;i++){
@@ -21,6 +22,7 @@ vector<vector<int>>a(n,vector<int>(m));
                 cout<<a[i][j]<<"  ";
             }
         }
+        cout<<endl;
      }
     return 0;
 }
